@@ -7,7 +7,6 @@
     console.log("Joint: " + joint.version);
     //endregion
 
-    debugger;
 
     var graph = new joint.dia.Graph();
 
