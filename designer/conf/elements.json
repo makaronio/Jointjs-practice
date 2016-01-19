@@ -1,0 +1,118 @@
+
+[
+    {
+        "group": "basic",
+        "caption": "Basic",
+        "collapsed": false,
+        "visible": true,
+        "index": 0,
+        "items": [
+            {
+                "elType": "start",
+                "shapeType": "circle",
+                "caption": "Start",
+                "text": "",
+                "imgUrl": "/Jointjs-practice/designer/img/element/start.png"
+            },
+            {
+                "elType": "terminate",
+                "shapeType": "circle",
+                "caption": "Terminate",
+                "text": "",
+                "imgUrl": "/Jointjs-practice/designer/img/element/terminate.png"
+            }
+        ]
+    },
+    {
+        "group": "ivr",
+        "caption": "ivr",
+        "collapsed": false,
+        "visible": true,
+        "index": 1,
+        "items": [
+            {
+                "elType": "answer",
+                "caption": "Answer",
+                "text": "",
+                "imgUrl": "/Jointjs-practice/designer/img/element/answer.png",
+                "properties": {
+                    "status": {
+                        "value": "200",
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "elType": "hangup",
+                "caption": "Hangup",
+                "text": "",
+                "imgUrl": "/Jointjs-practice/designer/img/element/hangup.png",
+                "properties": {}
+            },
+            {
+                "elType": "setVar",
+                "caption": "Set variable",
+                "text": "",
+                "imgUrl": "/Jointjs-practice/designer/img/element/setVar.png",
+                "properties": {
+                    "variables": {
+                        "value": [],
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "elType": "sleep",
+                "caption": "Sleep",
+                "text": "",
+                "imgUrl": "/Jointjs-practice/designer/img/element/sleep.png",
+                "properties": {
+                    "time": {
+                        "value": "100",
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "elType": "bridge",
+                "caption": "Bridge",
+                "text": "",
+                "imgUrl": "/Jointjs-practice/designer/img/element/bridge.png",
+                "properties": {}
+            },
+            {
+                "elType": "recordSession",
+                "caption": "Record session",
+                "text": "",
+                "imgUrl": "/Jointjs-practice/designer/img/element/recordSession.png",
+                "properties": {
+                    "record": {
+                        "value": "start",
+                        "visible": true
+                    }
+                }
+            },
+            {
+                "elType": "playback",
+                "caption": "Playback",
+                "text": "",
+                "imgUrl": "/Jointjs-practice/designer/img/element/playback.png",
+                "properties": {}
+            },
+            {
+                "elType": "if",
+                "caption": "If",
+                "text": "",
+                "imgUrl": "/Jointjs-practice/designer/img/element/default.png",
+                "properties": {}
+            },
+            {
+                "elType": "switch",
+                "caption": "Switch",
+                "text": "",
+                "imgUrl": "/Jointjs-practice/designer/img/element/default.png",
+                "properties": {}
+            }
+        ]
+    }
+]

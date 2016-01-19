@@ -3525,7 +3525,11 @@ joint.dia.GraphCells = Backbone.Collection.extend({
     }
 });
 
-
+/**
+//
+//  GRAPH
+//
+*/
 joint.dia.Graph = Backbone.Model.extend({
 
     initialize: function(attrs, opt) {
@@ -8193,7 +8197,11 @@ joint.dia.LinkView = joint.dia.CellView.extend({
 //      JointJS library.
 //      (c) 2011-2015 client IO
 
-
+/**
+ //
+ //  PAPER
+ //
+ */
 joint.dia.Paper = joint.mvc.View.extend({
 
     className: 'paper',
@@ -9170,6 +9178,11 @@ joint.dia.Paper = joint.mvc.View.extend({
 //      JointJS library.
 //      (c) 2011-2013 client IO
 
+/**
+ //
+ //  Shapes
+ //
+ */
 joint.shapes.basic = {};
 
 joint.shapes.basic.Generic = joint.dia.Element.extend({
@@ -10979,6 +10992,7 @@ joint.connectors.jumpover = (function(_, g) {
         return buildPath(jumpingLines, jumpSize, jumpType);
     };
 }(_, g));
+
 
 //      JointJS library.
 //      (c) 2011-2013 client IO

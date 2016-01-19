@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+    <title>Designer</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Jointjs-practice/designer/css/Joint/joint.min.css">
+    <link rel="stylesheet" type="text/css" href="/Jointjs-practice/designer/css/cfd/cfd.css">
+    <link rel="stylesheet" type="text/css" href="/Jointjs-practice/designer/css/stencil/stencil.css">
+    <link href="/Jointjs-practice/designer/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/Jointjs-practice/designer/css/jsonview/jquery.jsonview.css" rel="stylesheet" type="text/css">
+    <link href="/Jointjs-practice/designer/js/libs/pnotify/pnotify.custom.css" rel="stylesheet" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/Jointjs-practice/designer/css/toolbar/toolbar.css">
+</head>
+<body>
+    <div id="cfd-toolbar-container"></div>
+
+    <!--  cfd-->
+    <div id="cfd" class="panel panel-primary">
+        <!--  stencil-->
+        <div class="stencil-container">
+            <label>Elements</label>
+        </div>
+        <!--  canvas-->
+        <div id="cfd-canvas">
+            <div id="cfd-canvas-container"></div>
+        </div>
+        <!--  property-->
+        <div id="cfd-property">
+            <div id="cfd-property-close" title="Open/Close">
+                <div class="btn btn-xs text-primary property-close-btn">></div>
+            </div>
+            <div id="cfd-property-container"></div>
+            <div id="cfd-preview-container"><span class="text-primary">Preview</span></div>
+        </div>
+        <!--  drag-->
+        <div id="cfd-drag"></div>
+        <!--  select-->
+        <div id="cfd-select">
+            <div title="Delete" data-tag="delete" class="cfd-select-button cfd-select-button-leftTop"></div>
+            <div title="Create link" data-tag="createLink" createLink="createLink" class="cfd-select-button cfd-select-button-rightMiddle"></div>
+            <div title="Button 1" data-tag="button1" class="cfd-select-button cfd-select-button-leftBottom"></div>
+            <div title="Button 2" data-tag="button2" class="cfd-select-button cfd-select-button-rightTop"></div>
+            <div title="Button 3" data-tag="button3" class="cfd-select-button cfd-select-button-rightBottom"></div>
+        </div>
+    </div>
+
+    <!--  modal box-->
+    <div class="cfd-modal-box-cover"></div>
+    <div class="cfd-modal-box panel panel-primary">
+        <div class="cdf-modal-box-header">
+            <div class="cfd-modal-box-title">Modal box</div>
+            <div class="cfd-modal-box-close">x</div>
+        </div>
+        <div class="cfd-modal-box-content"></div>
+    </div>
+
+    <script src="./js/libs/Require/require.js" data-main="/Jointjs-practice/designer/js/main.js"></script>
+</body>
+</html>
